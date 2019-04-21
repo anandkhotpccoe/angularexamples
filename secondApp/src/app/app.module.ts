@@ -24,6 +24,6 @@ import { firstComponent } from './first.component';
   providers: [],
 
   //To execute particular component
-  bootstrap: [AppComponent]
+  bootstrap: [firstComponent]
 })
 export class AppModule { }

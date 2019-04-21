@@ -1,0 +1,7 @@
+<!--What is Ng Model-->
+<input type="text" [(ngModel)] = "my_text" >
+<br>
+<!--message is the Key API is expecting-->
+<button (click)= "clickMe({'message': my_text})">Send</button>
+<br><br>
+<h1>{{result | json}}</h1>
